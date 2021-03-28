@@ -17,7 +17,23 @@ To generate database and tables, you need to have open Terminal and be in parent
 1. Run `python create_tables.py` to create database and table structure before importing new data. Please be aware this will remove any data imported before, so use with care. 
 2. Run `python etl.py` to consume input song and data files and fill the tables created in step 1.
 
-The jupyter notebooks etl.ipynb and test.ipynb are intended to test if the table was correctly populated and to develop functionalities for etl.py.
+The jupyter notebooks `etl.ipynb` and `test.ipynb` are intended to test if the table was correctly populated and to develop functionalities for etl.py.
 
+## Built With
+
+* [Postgres](https://www.postgresql.org/) - Relational Database used
+* [Python](https://www.python.org/) - The programming language used
+* [Million Song Dataset](https://labrosa.ee.columbia.edu/millionsong/) - Dataset used
+
+## Authors
+
+* **[Pemberai Sweto](https://github.com/thepembeweb)** - *Initial work* - [Data Modeling with Postgres](https://github.com/thepembeweb/data-modeling-with-postgres)
+
+## License
+
+[![License](http://img.shields.io/:license-mit-green.svg?style=flat-square)](http://badges.mit-license.org)
+
+- This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
+- Copyright 2021 © [Pemberai Sweto](https://github.com/thepembeweb).
 
 
